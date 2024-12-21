@@ -1,7 +1,7 @@
 export function VeodraPCGuide() {
     return (
         <>
-            <p>We're still building this! </p>
+            <button onClick={() => location.href = "https://pcguide.veodra.com"}>Go To PCGuide Website</button>
         </>
     )
 }
