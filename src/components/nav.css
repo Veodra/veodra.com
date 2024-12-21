@@ -1,0 +1,62 @@
+nav {
+    width: 100%;
+    background-color: #E0E0E0C0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.navcenter {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navend {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.navend a {
+    width: 27px;
+    height: 27px;
+}
+
+nav a {
+    color: black; /* 文字颜色 */
+    text-decoration: none; /* 去除下划线 */
+    margin-left: 3em;
+    margin-right: 3em;
+    font-size: 18px;
+    font-weight: 600; /* 字体加粗 */
+    transition: color 0.3s ease; /* 增加过渡效果 */
+}
+
+/* 鼠标悬停时效果 */
+nav a:hover {
+    color: #646cff; /* 悬停时颜色变红 */
+}
+
+/* 响应式设计（屏幕宽度小于768px） */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* 垂直排列 */
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column; /* 菜单项竖直排列 */
+        gap: 15px; /* 调整间隙 */
+    }
+}
