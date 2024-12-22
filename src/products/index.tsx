@@ -34,7 +34,7 @@ export function Products() {
                         <p>Veodra Mirror ensures that you stay connected to the global development community. </p>
                         <p>Speed, reliability, and accessibility come together to make your development process smooth—no matter where you are.</p>
                     </div>
-                    <div class="product-card" onClick={() => location.route("/products/pcguide")}>
+                    <div class="product-card" onClick={() => window.open("https://pcguide.veodra.com")}>
                         <h2>Veodra PCGuide <ArrowRight /></h2>
                         <h3>A Friendly Computer Guide for Beginners</h3>
                         <p>Veodra PCGuide is the perfect starting point for anyone new to using computers. </p>

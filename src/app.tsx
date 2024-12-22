@@ -10,7 +10,6 @@ import { Footer } from './components/footer';
 import { VeodraBabel } from './products/babel';
 import { VeodraMirror } from './products/mirror';
 import { VeodraOffice } from './products/office';
-import { VeodraPCGuide } from './products/pcguide';
 
 export function App() {
     return (
@@ -25,7 +24,6 @@ export function App() {
                         <VeodraBabel path='/products/babel' />
                         <VeodraMirror path='/products/mirror' />
                         <VeodraOffice path='/products/office' />
-                        <VeodraPCGuide path='/products/pcguide' />
                         <Error default />
                     </Router>
                 </ErrorBoundary>

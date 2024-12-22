@@ -22,7 +22,7 @@ export function Home() {
                         <h3>Veodra Mirror <ArrowRight /></h3>
                         <p>GitHub Release Mirror for Developers and Users in Restricted Regions</p>
                     </div>
-                    <div class="card" onClick={() => location.route("/products/pcguide")}>
+                    <div class="card" onClick={() => window.open("https://pcguide.veodra.com")}>
                         <h3>Veodra PCGuide <ArrowRight /></h3>
                         <p>A Friendly Computer Guide for Beginners</p>
                     </div>
