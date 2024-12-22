@@ -1,5 +1,5 @@
 #app {
-  width: 90%;
+  width: 95%;
   height: 75vh;
   margin: 0 auto;
   padding: 2rem;
@@ -116,4 +116,26 @@
   align-items: start;
   justify-content: left;
   font-size: 20px;
+}
+@media (max-width: 1000px) {
+  #app {
+    margin-top: 10em;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+  }
+}
+@media (max-width: 768px) {
+  #app {
+    margin-top: 10em;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+  }
 }
